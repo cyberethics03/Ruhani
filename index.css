@@ -1,0 +1,74 @@
+*{
+    font-family: 'Poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    background-color: rgb(255, 228, 232);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.subm{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.subm div{
+    border: 2px dotted rgb(255, 104, 129);
+    padding: 10px 80px;
+}
+
+.whatis{
+    padding: 50px;
+}
+.whatis h2{
+    color: red;
+}
+.whatis li{
+    margin: 10px 0px;
+}
+.whydo li{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.whatis h3{
+    color: rgb(0, 149, 255);
+}
+
+.subtopic div{
+    display: inline-flex;
+    flex-direction: column;
+}
+.subtopic a{
+    margin: 10px;
+    background-color: pink;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+span{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+img{
+    height: 300px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    img {
+        height: 200px;
+      width: 300px;
+    }
+    .whatis{
+        padding: 0px;
+    }
+    .subm div{
+        padding: 0px;
+    }
+}
